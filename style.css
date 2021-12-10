@@ -1,0 +1,86 @@
+*{
+    box-sizing:border-box;
+    padding:0px;
+    margin:0px;
+}
+body{
+    font-size: 2vh;
+    background-image:url('images/bg.png');
+    background-size:cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+
+.divoneback{
+    background-color:rgba(0,0,0 , 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    opacity:1;
+    padding-left:10vw;
+    padding-right: 10vw;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    width:76vw;
+}
+h1{font-size: 1.2em;
+    padding-top:0.8em;
+    
+
+
+}
+h2{font-size: 1em;
+    padding-top: 0.5em;
+    
+
+
+
+
+}
+.bbcflex{
+    display:flex;
+    padding-top: 0.5em;
+    justify-content: space-between;
+}    
+.pbbc{background-color: rgb(185,0,5);
+    padding-left: 0.1em;
+    padding-right: 0.2em;
+}
+.bbclogo{
+    background-color: white;
+    color:rgb(185,0,5);
+    margin:0.1em;
+    font-weight:700;
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+        
+
+}
+.sirfrankflex{
+    display:flex;
+    background-color: white;
+    color:rgb(185,0,5);
+     padding-left:10vw;
+    padding-right: 10vw;
+     margin-left: 12vw;
+    margin-right: 12vw;
+    font-family: Arial, Helvetica, sans-serif;
+    width:76vw;
+    justify-content: space-between;
+
+    padding-bottom:0.4rem;
+}
+
+.time{
+    background-color: rgb(185,0,5);
+    color:white;
+    margin-top:0;
+
+}
+.maindiv{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position:absolute;
+    bottom:2rem;
+}  
